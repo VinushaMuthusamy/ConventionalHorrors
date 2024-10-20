@@ -233,3 +233,6 @@ h4 {
   flex-direction: column;
   align-items: center;
 }
+.mainaction {
+  background-image: url(pics/ghost-2022413_640.png);
+}
