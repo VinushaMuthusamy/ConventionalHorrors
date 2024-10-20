@@ -1,19 +1,232 @@
-/*
- * Assignment 02
- * CSS FILE
- */
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.6;
+        background-color: rgba(0, 0, 0, 0.932);
+        color: whitesmoke;
+      }
+      img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+      }
+      h2 {
+         font-family: "Patrick Hand";
+         font-weight: 800;
+         font-size: 2.6rem;
+        color: rgb(219, 217, 229);
+      }
+      h1 {
+        font-family: "Amatic SC", sans-serif;
+        font-weight: 800;
+        font-size: 5.4rem;
+        font-style: normal;
+      }
+      h3 {
+        text-align: center;
+        font-family: "Creepster";
+        font-weight: 400;
+        font-size: 2.8rem;
+        font-style: normal;
+    }
+      header {
+        padding: 20px; 
+    }
+    
+    .container-headings {
+        display: flex; 
+        align-items: flex-start;
+        max-width: 80%; 
+    }
+    .image {
+      width: 150px;
+      height: auto; 
+      margin-right: 20px; 
+  }
+    .heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 250px; 
+        margin-bottom: 30px;
+    }
+    p {
+        margin: 0;                
+        line-height: 1.5;         
+    }
+    .navbar1 ul {
+      display: flex;              
+      flex-direction: row;        
+      justify-content: space-between;
+      gap: 100px;     
+      align-items: flex-start;            
+      padding: 10px;           
+  }
+  .navbar1 a {            
+      font-family: "Special Elite", system-ui;
+      font-weight: 400; 
+      color:red            
+  }
+  .portal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("pics/Index.png");
+    background-size: cover;
+    height: 80vh;
+    width: 100%;                
+    padding: 20px;                  
+  }
+  .portal h1 {
+    font-family: "Londrina Sketch", sans-serif;
+    font-size: 6.6rem;
+    font-weight: 400;
+    color: white;
+    -webkit-text-stroke: 1px black;
+  }
+  .portal p {
+    font-family:  "Unkempt";
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: black;
+  }
+  .portal a {
+    margin-top: 20px;
+    color: rgba(145, 8, 8, 0.916);
+    font-family: "Special Elite", system-ui;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-style: italic; 
+  }
+  .grid1 {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 30px;
+  }
+  .grid1 a {
+    font-family: "Special Elite", system-ui;
+      font-weight: 400; 
+    color: rgb(181, 80, 80);
+  }
+  .grid1 li:first-child{
+    background-color: rgb(81, 67, 60);
+  }
+.grid1 :nth-child(2) {
+  background-color: rgba(92, 84, 102, 0.445);
 }
-
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
+  .grid1 li:last-child {
+    background-color: rgb(71, 79, 76);
+  }
+footer {
+  padding: 20px; 
+}
+footer h1 {
   text-align: center;
-  color: #023047;
+}
+.container-below {
+  display: flex; 
+  align-items: center;
+  max-width: 80%; 
+}
+.imh {
+  width: 150px;
+  height: auto; 
+  margin-right: 20px; 
+}
+.navbar2 ul {
+  display: flex;              
+  flex-direction: row;        
+  justify-content: space-between;
+  gap: 100px;     
+  align-items: flex-start;            
+  padding: 10px;           
+}
+.navbar2 a {            
+  font-family: "Special Elite", system-ui;
+  font-weight: 400; 
+  color:red            
+}
+.action ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    align-items: center; 
+    padding: 10px;    
+}
+.action a{
+  font-family: "Special Elite", system-ui;
+  font-weight: 400; 
+  color:red 
+}
+aside a{
+  font-family: "Special Elite", system-ui;
+  font-weight: 400; 
+  color: red;
+}
+table {
+  font-family: "Rock Salt"; 
+  font-size: 2.0rem;
+  color: whitesmoke;
+}
+h4 {
+  font-family: "Patrick Hand";
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+article p {
+  font-family: "Rock Salt"; 
+  color: whitesmoke; 
+}
+form {
+  font-family: "Patrick Hand";
+  font-weight: 400;
+}
+.para {
+  font-family: "Patrick Hand";
+  font-weight: 400; 
+}
+textarea {
+  width: 60%; 
+  height: 200px; 
+}
+h5 {
+  font-family: "Patrick Hand";
+  font-weight: 400; 
+  font-size: 1.5rem;
+}
+.container-1, .container-2, .container-3 {
+  display: flex;
+  align-items: center;
+  font-family: "Rock Salt";
+  font-size: 3.4rem;
+  color: gray;
+  background-color: rgba(92, 84, 102, 0.445);
+  margin: 20px 0;
+  width: 100%;          
+}
+.container-1 img, .container-2 img, .container-3 img {
+  margin-right: 20px;       
+  max-width: 50%;        
+  height: auto;             
+}
+.click {
+  margin-left: 45%;
+  font-family: "Patrick Hand";
+  font-size: 2.5rem;
+  color: red;
+}
+h4 {
+  text-align: center;
+}
+.contacto {
+  font-family: "Patrick Hand";
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
